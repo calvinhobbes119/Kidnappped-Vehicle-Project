@@ -8,7 +8,7 @@ Code changes
 ---
 For this project I made the following changes to the starter code.
 
-1. __*particle_filter.cpp*__
+__*particle_filter.cpp*__
 
 1. Initialized a vector of 100 particles drawn from a Gaussian distribution centred around the initial GPS position, and with a standard-deviation corresponding to the sensor tolerances. Each particle is assigned a unique identifier for bookkeeping purposes, and the weights of all particles is set to equal 0.01. I experimented with different numbers of particles (10, 100, 1000, 2000) and found that using 100 particles gives a good tradeoff of execution speed versus localization error.
 2. I implemented the prediction method of the ParticleFilter class. This method takes the position and bearing of each of the particles in my particle filter, and updates its position and bearing based on noisy control inputs. The noise is modeled as a Gaussian distribution centred around the particles predicted position (assuming noiseless control), with a standard deviation corresponding to the controls tolerances.
