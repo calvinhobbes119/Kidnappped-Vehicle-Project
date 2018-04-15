@@ -31,6 +31,7 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
     double x_noise, y_noise, theta_noise; //
 
     num_particles = 100; // Experimentally found that 100 particles 
+                         // gives good tradeoff of speed vs accuracy
     particle_template.id = 0;
     particle_template.x = 0;
     particle_template.y = 0;
