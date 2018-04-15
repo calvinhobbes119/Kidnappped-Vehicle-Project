@@ -1,4 +1,4 @@
-O## Project: Kidnapped Vehicle Project [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
+## Project: Kidnapped Vehicle Project [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 Overview
 ---
@@ -25,4 +25,4 @@ The video below shows the performance of the particle filter. As shown in the vi
 
 I also implemented a visualization of the particle filter points before and after resampling. The particle filter points before resampling are show in blue, and the after-resampling points are shown in red.
 
-[![Particle Filter Points](https://github.com/calvinhobbes119/Kidnappped-Vehicle-Project/blob/master/Untitled.png)](https://youtu.be/8oSff9zLmrU)
+[![Particle Filter Points](https://github.com/calvinhobbes119/Kidnappped-Vehicle-Project/blob/master/Untitled1.png)](https://youtu.be/8oSff9zLmrU)
